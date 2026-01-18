@@ -13,7 +13,7 @@ func NewBank() Bank {
 
 func (c Bank) Pay(usd int) int {
 	fmt.Println("Оплата банковским переводом!")
-	fmt.Println("Размер оплаты:", usd, "USDT")
+	fmt.Println("Размер оплаты:", usd, "долларов")
 
 	return rand.Int()
 
